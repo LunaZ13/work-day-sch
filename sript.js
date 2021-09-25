@@ -12,7 +12,7 @@ $(document).ready(function () {
         var time = $(this).parent().attr("id");
         console.log(text, time);
         // save to local storage
-        localStorage.setItem(text, time);
+        localStorage.setItem(time, text);
     })
     // gets items saved in local storage
     $("#8 .description").val(localStorage.getItem("8"));
@@ -29,23 +29,23 @@ $(document).ready(function () {
     // function for current hour
     function timeTracker() {
         var currentHour = moment().hour();
-        // loop for time blocks
+        // if else statements to for color coding
         $(".time-block").each(function () {
-            var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+            var blockTime = $(this).attr("id");
             // will add class color depending on time 
             if (blockTime < currentHour) {
-                $(this).addClass("future");
-                $(this).removeClass("past");
+                $(this).addClass("past");
+                $(this).removeClass("future");
                 $(this).removeClass("present");
             }
-            else if (blockTime === currentHour) {
+            else if (blockTime == currentHour) {
                 $(this).addClass("present");
                 $(this).removeClass("past");
                 $(this).removeClass("future");
             }
             else {
-                $(this).addClass("past");
-                $(this).removeClass("future");
+                $(this).addClass("future");
+                $(this).removeClass("past");
                 $(this).removeClass("present");
             }
         })

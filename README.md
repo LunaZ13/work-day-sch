@@ -1,28 +1,24 @@
-# work-day-scheduler
+# Work Day Scheduler
 
 ## Discription: 
-I was tasked with creating an application that creates a random password. For employees who have access to sensitive information, this solves the issue of security. When specific user inputs are met, the application will generate a new secure passowrd for the user. 
+I was tasked with creating a daily planner that diplays the current day at the top. It should display time blocks for standard business hours for the day. The user is then able to create events that are saved and are able to be edited. The blocks are also color coded to show events that are past, present, or future.
 
 ## Installation:
-Open in browser or click on the following link. https://lunaz13.github.io/password-generator/
+Open in browser or click on the following link. https://lunaz13.github.io/work-day-sch/
 
 ## Usage:
-See screenshot and instructions below.
-![Alt Text](site-screenshot.png)
-Instructions - To start, the user will click on the "generate password" button. Then the user will be prompted by window alerts to confirm password criteria. 
+See demo and instructions below.
+![Alt Text](https://watch.screencastify.com/v/XJ3pM1Aj2Ky9IbWinJ9Y)
 
-1. Password length must be between 8 and 128 characters.
-2. Password must contain at least one of the following character type:
-* Lowercase 
-* Uppercase
-* Numbers 
-* Special/Symbols
+Instructions - The user is able to see the day and time displayed at the top of the screen. To start, the user can input text in the text-area box and click on the save button at the far right of the row. If the user wishes to edit the text; they can just click in the text box, make their desired changes, and then click the save button again. The time blocks will also be color coded as time passes. Grey will mean event is past, red will mean event is present, and green will mean event is in the future. 
 
 ## Built With:
 * HTML
 * CSS
-* Javascript
+* JQuery
 * Boostrap
+* Moment.js
+
 
 ## Credits
 Edited by Inmar Luna
