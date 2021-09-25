@@ -8,7 +8,11 @@ Open in browser or click on the following link. https://lunaz13.github.io/work-d
 
 ## Usage:
 See demo and instructions below.
-![Alt Text](https://watch.screencastify.com/v/XJ3pM1Aj2Ky9IbWinJ9Y)
+
+
+![Work Day Scheduler](https://user-images.githubusercontent.com/86627336/134776419-412a9a33-411c-48f9-8855-7b85811c1cbf.gif)
+
+
 
 Instructions - The user is able to see the day and time displayed at the top of the screen. To start, the user can input text in the text-area box and click on the save button at the far right of the row. If the user wishes to edit the text; they can just click in the text box, make their desired changes, and then click the save button again. The time blocks will also be color coded as time passes. Grey will mean event is past, red will mean event is present, and green will mean event is in the future. 
 
